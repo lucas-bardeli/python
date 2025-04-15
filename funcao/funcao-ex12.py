@@ -17,7 +17,7 @@
 #   - Quando houver atraso, cobrar 3% de multa, mais 0,1% de juros por dia de atraso.
 
 def valorPagamento():
-    diario = [] # Quando não há tamanho definido, estamos criando uma lista ao invés de vetor
+    diario = [] 
 
     while True:
         valor = float(input("\nInforme o valor da prestação: "))
