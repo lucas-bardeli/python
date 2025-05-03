@@ -1,6 +1,9 @@
 
 print("Olá")
 
-import pacote.arquivo
+from pacote import arquivo
 # ou
-# from pacote import arquivo
+# import pacote.arquivo
+# porém não vai dar para chamar a função
+
+arquivo.saudacao()
